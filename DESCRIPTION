@@ -1,0 +1,11 @@
+Package: U.PhyloMaker
+Type: Package
+Title: Make phylogenetic hypotheses.
+Version: 0.1.0
+Author: Yi Jin
+Maintainer: Yi Jin <codon@126.com>
+Depends: R (>= 3.5.0), ape
+Description: Make phylogenetic hypotheses for a list of species.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
