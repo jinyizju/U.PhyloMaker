@@ -27,7 +27,7 @@ This function is named the same as the "phylo.maker" functions in V.PhyloMaker a
 > result <- phylo.maker(sp.list, megatree, gen.list, nodes.type = 1, scenario = 3)\
 > result
 
-By default, the output of "phylo.maker" includes two files, one is the phylogeny of "sp.list", the other is "sp.list" with two more columns, one includes the assigned family name(s) in the "genus.list" for the species when different from the family name(s) specified in "sp.list", and the other includes the information about if the species was directly pruned from the backbone phylogeny or was bound to the backbone phylogeny and pruned later.  
+By default, the output of "phylo.maker" includes two files, one is the phylogeny of "sp.list", the other is "sp.list" with two more columns, one includes the assigned family name(s) in the "gen.list" for the species when different from the family name(s) specified in "sp.list", and the other includes the information about if the species was directly pruned from the backbone phylogeny or was bound to the backbone phylogeny and pruned later.  
 ### [Note] When importing data from the megatree database, make sure it is the URL of the 'Raw' option on Github page where the data is stored.
 
 # 3 References
