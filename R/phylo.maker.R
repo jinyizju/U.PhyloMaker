@@ -1,7 +1,7 @@
 phylo.maker <- function (sp.list, tree, gen.list, nodes.type = 1, output.sp.list = TRUE,
                          output.tree = FALSE, scenarios = 3, r = 1)
 {
-  if (!all(sub("_.*", "", tree$tip.label) %in% gen.list$genus)) {
+  if (!all(sub("_.*", "", tree$tip.label) %in% gen.list$genus)&isFALSE(output.tree)) {
     tree <- drop.tip(tree, which(sub("_.*", "", tree$tip.label) %in% setdiff(sub("_.*", "", tree$tip.label), gen.list$genus)))
   }
   treeX <- tree
